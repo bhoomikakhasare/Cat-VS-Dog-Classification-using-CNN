@@ -246,7 +246,7 @@ zip_path = "/content/drive/MyDrive/catvsdog.zip"   # <-- change if needed
 extract_path = "/content/Cat"
 
 # Optional: copy zip locally (faster)
-!cp "$zip_path" /content/catvsdog.zip
+#!cp "$zip_path" /content/catvsdog.zip
 zip_path = "/content/catvsdog.zip"
 
 with zipfile.ZipFile(zip_path, 'r') as z:
